@@ -1,0 +1,134 @@
+@charset "UTF=8";
+
+* {
+  margin: 0px;
+}  
+
+ @font-face {
+  font-family: 'Soda';
+  src: url(fontes/Coffee-Soda-104726997/Coffee\ Soda.otf) format(opentype);
+ } 
+
+ @font-face {
+  font-family: 'Paradise';
+  src: url(fontes/happy_paradise/Happy\ Paradise.otf) format(opentype);
+ }
+
+ body {
+
+  min-height: 100vh;
+
+ }
+
+h1 {
+
+    font-family: 'Soda';
+    margin-bottom: 20px;
+    font-variant: small-caps;
+    font-size: 3em;
+
+}
+
+a {
+
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover {
+
+  text-decoration: underline;
+
+}
+
+div#cabecalho {
+
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    width:702px;
+    background-color: black;
+    color: white;
+
+}
+
+
+main {
+
+    margin: auto;
+    padding: 50px;
+    width: 702px;
+    text-align: justify;
+    text-align: left;
+    border: 1px solid black;
+    font-family: 'Paradise';
+    font-weight: bold;
+
+}
+
+
+section {
+
+    padding: 200px;
+
+}
+
+section > p {
+
+    padding-bottom: 2em;
+
+}
+
+section.brn {
+
+  font-size: 25px;
+  margin-left: -32%;
+
+}
+
+section#planoflor {
+
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    margin: 0px -51px;
+    box-shadow: inset 6px 6px 13px 0px #0000008a;
+}
+
+section#planoflor > p {
+
+  font-size: 25px;
+  margin-left: -49%;
+  color: white;
+  background-color: #0000006c;
+  width: 300px;
+  padding: 25px;
+
+}
+
+section#planolivro {
+
+  background: black url(imagens/background002.jpg) right center no-repeat fixed;
+  background-size: cover;
+  margin: 0px -51px;
+
+}
+
+section#planolivro > p {
+
+  font-size: 25px;
+  margin-left: -50%;
+  color: white;
+  background-color: #0000006c;
+  width: 300px;
+  padding: 25px;
+
+}
+
+footer {
+
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
